@@ -248,9 +248,9 @@ nav a:hover{
 }
 
 
-.galeryfooter{
-    background-color: rgb(0, 0, 0) ;
-    z-index: 1;
+.galeryfooter img{
+    background-color: rgba(28, 28, 28, 0.954);
+    z-index: -1;
     flex-wrap: wrap;
     display: flex;
     margin-top: 50px !important;
@@ -264,29 +264,37 @@ nav a:hover{
 .elf{
     position: absolute;
     margin-left: -10px;
+    z-index: 1000;
+    background-size: cover;
 }
 
 .mort{
     position: absolute;
     margin-left: 215px;
+    
 }
 .nain{
     position: absolute;
     margin-left: 430px;
+   
 }
 .orc{
     position: absolute;
     margin-left: 655px;
+    
 }
 .vulpe{
     position: absolute;
     margin-left: 875px;
+   
 }
 .panda{
     position: absolute;
     margin-left: 1100px;
+    
 }
 .dracthyr{
     position: absolute;
     margin-left: 1300px;
+    
 }
