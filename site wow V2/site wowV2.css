@@ -116,11 +116,6 @@ body{
               
             }
             
-            nav a:hover{
-              
-                border-bottom: none;
-              
-            }
             
             /* Ici je travaille sur ma class sous j'utilise le display: none pour cacher ma liste */
             
@@ -147,10 +142,9 @@ body{
             }
             .sous a{
                 padding: 10px;
-                border-bottom: none;
+                
             }
             .sous a:hover{
-                border-bottom: none;
                 background-color:#b800007a ;
                 list-style-type: none;
             }
@@ -163,6 +157,9 @@ body{
               margin: 50px 20px;
               height: 1500px;
             }
+nav a:hover{
+    color: #dd6c1bec;
+}
 
 /*  HEADER */
 
@@ -252,7 +249,44 @@ body{
 
 
 .galeryfooter{
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgb(0, 0, 0) ;
     z-index: 1;
     flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px !important;
+}
+
+.banniere a:hover{
+    color: #fbff00c1;
+
+}
+
+.elf{
+    position: absolute;
+    margin-left: -10px;
+}
+
+.mort{
+    position: absolute;
+    margin-left: 215px;
+}
+.nain{
+    position: absolute;
+    margin-left: 430px;
+}
+.orc{
+    position: absolute;
+    margin-left: 655px;
+}
+.vulpe{
+    position: absolute;
+    margin-left: 875px;
+}
+.panda{
+    position: absolute;
+    margin-left: 1100px;
+}
+.dracthyr{
+    position: absolute;
+    margin-left: 1300px;
 }
