@@ -169,3 +169,13 @@ nav a:hover{
 body{
     background-color: rgb(141, 22, 22);
 }
+
+@media all and (max-width: 900px) 
+{
+   .galeryfooter{
+       display: none;
+   }
+
+
+
+}

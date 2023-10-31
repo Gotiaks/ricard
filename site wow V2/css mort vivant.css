@@ -171,3 +171,13 @@ nav a:hover{
 .mortadelle{
     background-color: rgb(141, 22, 22);
 }
+
+@media screen and (max-widht:900px) 
+{
+   .galeryfooter{
+       display: none;
+   }
+
+
+
+}

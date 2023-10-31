@@ -179,3 +179,13 @@ nav a:hover{
 .raceelf{
     background-color: rgb(12, 12, 112);
 }
+
+@media all and (max-width: 900px) 
+{
+   .galeryfooter{
+       display: none;
+   }
+
+
+
+}

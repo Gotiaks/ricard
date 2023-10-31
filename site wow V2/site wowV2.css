@@ -314,11 +314,15 @@ nav a:hover{
     .banniere{
         display: flex;
         flex-direction: column;
+        background-position: center;
     }
     .acheter{
         margin-top: -80px;
         justify-content: center;
         align-items: center;
+
+
+        
     }
 }   
 .infos3{
@@ -335,3 +339,67 @@ nav a:hover{
     border: solid 1px black;
     border-radius: 15px;
 }
+.s3{
+margin-top:-500px
+}
+
+label
+{
+    display: none;
+}
+ 
+@media all and (max-width: 991px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav  ul li .parent
+    {
+        display: none;
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer
+        }
+
+        .logo{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bg{
+            display: none;
+            
+        }
+        .galeryfooter{
+            display: none;
+        }
+        .image1{
+            background-position: center;
+        }
+        .image2{
+            background-position: center;
+        }
+        .s3{
+            width: 150px !important;
+        }
+        .infos3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+    }
+
+    

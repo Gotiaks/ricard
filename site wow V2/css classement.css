@@ -1,7 +1,9 @@
 .parent {
+
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -154,23 +156,53 @@ nav a:hover{
 
 /*  HEADER */
 
+
+
 .galeryfooter{
     background-color: rgba(0, 0, 0, 0.418);
     display: flex;
     flex-direction: row !important;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 500px;
+    }
+
+
+   
+        
     
-}
-.Panda{
-    margin-top: -500px;
-    display: block;
+    body {
+        background-color: rgb(12, 12, 112);
+    }
+ .recrutement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+ }
     
+
+.explication{
+    color: #fff7009e;
+    border: solid 1px #fff7009e;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-body{
-    background-color: rgb(12, 12, 112);
+ 
+.Recrutement{
+    border: solid 1px #fff7009e;
 }
-@media screen and (max-widht:900px) 
+p{
+    align-items: center;
+    justify-content: center;
+}
+@media all and (max-width: 900px) 
 {
    .galeryfooter{
        display: none;
