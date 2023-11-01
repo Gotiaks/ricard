@@ -222,6 +222,10 @@ nav a:hover{
     text-align: center;
     justify-content: center;
     z-index: 1000;
+    margin-top: -165px;
+   width: 1116px;
+   border-radius: 15px;
+   align-items: center;
     
     
  }
@@ -229,10 +233,13 @@ nav a:hover{
  .explication2{
     background-color: rgba(0, 0, 0, 0.616);
     color: #fff7009e;
-    border: solid 2px #fff7009e;
+    border: solid 1px #fff7009e;
     text-align: center;
     justify-content: center;
     z-index: 1000;
+   margin-top: -65px;
+   width: 1116px;
+   border-radius: 15px;
  }
 
  @media all and (max-width: 900px) 
@@ -245,3 +252,39 @@ nav a:hover{
    
 
 }
+
+
+
+.ingame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.ingame1{
+    border: solid 1px black;
+    border-radius: 25px;
+}
+.p{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.473);
+    border: solid 1px #fff7009e;
+   margin-top: 150px;
+   color: #fff7009e;
+   margin-left: 250px;
+   margin-right: 250px;
+   border-radius: 15px;
+    
+}
+.ingame2{
+    border: solid 1px black;
+    border-radius: 25px;
+ }
+
+ .ingame3{
+    border: solid 1px black;
+    border-radius: 25px;
+    }

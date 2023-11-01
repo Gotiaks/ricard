@@ -179,6 +179,8 @@ nav a:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 100px;
+        z-index: 1000;
+
     }
     .explication{
         font-size: 20px;
@@ -192,6 +194,8 @@ nav a:hover{
         margin-left: 600px;
         margin-right: 600px;
         color: #fff7009e;
+        animation: slide 3s ;
+        
         
     }
     body {
@@ -225,6 +229,14 @@ nav a:hover{
         
     }
 
+    @keyframes slide { 0%{
+        transform: translateX(-1200px);
+    }
+    100%{
+    transform: translateX(0px);
+    }
+        
+    }
 
     @media all and (max-width: 900px) 
     {
@@ -244,7 +256,7 @@ nav a:hover{
        .video{
         display: none;
        }
-   
+       
        
    
     }
